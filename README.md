@@ -1,4 +1,4 @@
-# MensajesApp
+# WhatsApp
 
 This is a clone of WhatsApp's interface. Made with HTML and CSS. 
 
