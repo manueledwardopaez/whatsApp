@@ -1,0 +1,84 @@
+.message {
+    background: white;
+    padding: .5rem;
+    font: var(--body-16regular);
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    position: relative;
+    max-inline-size: 40%;
+}
+
+.message-text {
+    margin: 0;
+    overflow-wrap: break-word;
+}
+
+.message-text a {
+    color: #0046FB;
+    text-decoration: underline;
+}
+
+.message-date {
+    font: var(--caption-12regular);
+    color: var(--grey);
+}
+
+.message-status {
+    inline-size: 1rem;
+    block-size: 1rem;
+}
+
+.message-status.is-doubleChecked {
+    background-image: url('../images/doubleCheck.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.message-details {
+    display: flex;
+    justify-content: flex-end;
+    gap: .25rem;
+}
+
+.message.is-receiver {
+    background: var(--white);
+    align-self: flex-start;
+    border-radius: 0 .5rem .5rem .5rem;
+}
+
+.message.is-receiver::before{
+    content: '';
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-end: 100%;
+
+    inline-size: 12px;
+    block-size: 12px;
+    box-sizing: border-box;
+    border-inline-start: 6px solid transparent;
+    border-inline-end: 6px solid white;
+    border-block-start: 6px solid white;
+    border-block-end: 6px solid transparent;
+}
+
+.message.is-sender::before{
+    content: '';
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 100%;
+
+    inline-size: 12px;
+    block-size: 12px;
+    box-sizing: border-box;
+    border-inline-start: 6px solid var(--green-1);
+    border-inline-end: 6px solid transparent;
+    border-block-start: 6px solid var(--green-1);
+    border-block-end: 6px solid transparent;
+}
+
+.message.is-sender {
+    background: var(--green-1);
+    align-self: flex-end;
+    border-radius: .5rem 0 .5rem .5rem;
+}

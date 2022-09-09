@@ -1,0 +1,30 @@
+.search {
+    padding: 1rem;
+    background: var(--grey-3);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    block-size: var(--headerSize);
+    box-sizing: border-box;
+}
+
+.search-box {
+    display: flex;
+    inline-size: 100%;
+}
+
+.search input {
+    padding-block: .875rem;
+    padding-inline-start: 5rem;
+    border-radius: 3.125rem;
+    inline-size: 100%;
+    outline: none;
+    border: none;
+    font: var(--body-16regular);
+}
+
+.icon-search img {
+    position: absolute;
+    inset-block-start: calc(1.5rem + 6px);
+    inset-inline-start: 3rem;
+}

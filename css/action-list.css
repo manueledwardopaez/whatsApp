@@ -1,0 +1,35 @@
+.action-list {
+    block-size: var(--actionSize);
+    padding-block: 1rem;
+    padding-inline: 1rem;
+    background: var(--grey-4);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.action-list .message-box {
+    display: flex;
+    align-items: center;
+    inline-size: 100%;
+    block-size: 3.25rem;
+}
+
+.action-list button{
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-inline: 1rem;
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+}
+
+.message-box input {
+    font: var(--body-16regular);
+    inline-size: 100%;
+    border-radius: 3.125rem;
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+    border: none;
+    outline: none;
+}

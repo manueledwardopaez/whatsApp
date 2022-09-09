@@ -1,0 +1,11 @@
+/* .ellipsis{
+    max-inline-size: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+}
+
+.eldiv {
+    overflow-wrap: break-word;
+} */

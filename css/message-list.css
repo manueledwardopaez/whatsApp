@@ -1,0 +1,11 @@
+@import './message.css';
+@import './date.css';
+
+.message-list {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+    background-image: url('../images/bg.png');
+    padding: 1rem;
+}

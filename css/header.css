@@ -1,0 +1,21 @@
+.header {
+    block-size: var(--headerSize);
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--grey-4);
+
+}
+
+.header-secondary button {
+    border: none;
+    cursor: pointer;
+}
+
+.header-profile {
+    border-inline-end: 1px solid var(--grey);
+    block-size: var(--headerSize);
+    box-sizing: border-box;
+}

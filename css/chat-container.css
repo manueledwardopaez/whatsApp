@@ -1,0 +1,67 @@
+.chat-box-container {
+    /* El contenedor de los chats tiene de block-size el 100vh 
+    menos el header, el search y el espacio que sobra del scroll */
+    block-size: calc(100vh - var(--headerSize) - var(--headerSize)) ;
+    /* max-block-size: 100vh; */
+    overflow: auto;
+}
+
+.chat-box {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    block-size: 5rem;
+    padding-block: 1.125rem;
+    cursor: pointer;
+    background: var(--white);
+}
+
+.chat-box.is-selected {
+    background: var(--grey-2);
+}
+
+.chat-box p {
+    margin: 0;
+}
+
+.chat-principal img {
+    border-radius: 50%;
+}
+
+.chat-secondary  {
+    display: flex;
+    flex-direction: column;
+    inline-size: 100%;
+}
+
+.nameDateContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-block-end: .5rem;
+}
+
+.chat-name {
+    font: var(--body-16regular);
+}
+
+.chat-date {
+    font: var(--caption-12regular);
+}
+
+.chat-preview {
+    display: flex;
+    gap: .25rem;
+    font: var(--caption-12regular);
+}
+
+/* .chat-preview .eldiv {
+    max-inline-size: 50%;
+} */
+
+.divider {
+    block-size: 1px;
+    inline-size: 90%;
+    background: var(--grey-2);
+    margin: auto;
+}
