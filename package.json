@@ -1,0 +1,25 @@
+{
+  "name": "mensajesapp",
+  "version": "1.0.0",
+  "description": "This is a clone of WhatsApp's interface. Made with HTML and CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manueledwardopaez/whatsApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manueledwardopaez/whatsApp/issues"
+  },
+  "homepage": "https://github.com/manueledwardopaez/whatsApp#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
+    "postcss-import": "^15.0.0"
+  }
+}

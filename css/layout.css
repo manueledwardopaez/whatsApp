@@ -1,14 +1,5 @@
 .layout {
-    display: flex;
-    justify-content: space-between;
-}
-
-.layout-block {
-    inline-size: 30%;
-    display: block;
-}
-
-.layout-chat {
-    inline-size: 70%;
+    display: grid;
+    grid-template-columns: 27.4375rem 1fr;
 }
 
